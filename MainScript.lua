@@ -86,7 +86,7 @@ local function shoot()
 			end
 		end)
 		local touchConn --Touched event connection, assigning variable for disconnection later to save resources
-		local connection--RenderStepped connection
+		local connection --Stepped connection
 		
 		local function hit(instance)
 			if instance.Parent:FindFirstChild("Humanoid") then
