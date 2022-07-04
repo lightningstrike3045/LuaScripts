@@ -1,5 +1,7 @@
 -- Mainscript for a turret in my Roblox Game
 --The turret will turn and aim towards players not on the turret's team, then it will fire bullets towards the enemy player's position
+-- In order to create this script, I utilized vector math, trignomatry, Raycasting, and my understainding of Roblox CFrames
+
 local joint = script.Parent.Torso.MovableJoint -- Important Values/Objects
 local myHuman = script.Parent.Humanoid
 local myRoot = script.Parent.HumanoidRootPart
