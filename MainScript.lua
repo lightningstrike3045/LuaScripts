@@ -1,4 +1,4 @@
--- Mainscript for a turrent in my Roblox Game
+-- Mainscript for a turret in my Roblox Game
 --The turret will turn and aim towards players not on the turret's team, then it will fire bullets towards the enemy player's position
 local joint = script.Parent.Torso.MovableJoint -- Important Values/Objects
 local myHuman = script.Parent.Humanoid
